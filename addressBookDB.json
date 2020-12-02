@@ -1,56 +1,82 @@
 {
-	"addressBook": [
-		{
-			"id": 1,
-			"FirstName": "Munaf",
-			"secondName": "Patel",
-			"Address": "St road",
-			"ZipCode": "123456",
-			"PhoneNumber": "876543210",
-			"Email": "munaf@gmail.com",
-			"City": "kottayam",
-			"State": "kerala",
-			"ContactType": "Friends",
-			"AddressBookType":"Local"
-		},
-		{
-			"id": 2,
-			"FirstName": "Peter",
-			"secondName": "hook",
-			"Address": "brigade road",
-			"City": "Bangalore",
-			"State": "Karnataka",
-			"ZipCode": "987654",
-			"PhoneNumber": "876543121",
-			"Email": "peter@gmail.com",
-			"ContactType": "Profession",
-			"AddressBookType":"Local"
-		},
-		{
-			"id": 3,
-			"FirstName": "Akilesh",
-			"secondName": "Yadav",
-			"Address": "Thomas road",
-			"City": "Mumbai",
-			"State": "Maharashtra",
-			"ZipCode": "876343",
-			"PhoneNumber": "9965402353",
-			"Email": "akilesh@gmail.com",
-			"ContactType": "Profession",
-			"AddressBookType":"Local"
-		},
-		{
-			"id": 4,
-			"FirstName": "Sanjana",
-			"secondName": "Patil",
-			"Address": "valluvar kottam",
-			"City": "Chennai",
-			"State": "Tamil Nadu",
-			"ZipCode": "23789",
-			"PhoneNumber": "765432198",
-			"Email": "sanjana@gmail.com",
-			"ContactType": "Friends",
-			"AddressBookType":"Local"
-		}
-	]
+  "addressBook": [
+    {
+      "id": 1,
+      "FirstName": "Munaf",
+      "secondName": "Patel",
+      "Address": "St road",
+      "ZipCode": "123456",
+      "PhoneNumber": "876543210",
+      "Email": "munaf@gmail.com",
+      "City": "kottayam",
+      "State": "kerala",
+      "ContactType": "Friends",
+      "AddressBookType": "Local"
+    },
+    {
+      "id": 2,
+      "FirstName": "Peter",
+      "secondName": "hook",
+      "Address": "brigade road",
+      "City": "Bangalore",
+      "State": "Karnataka",
+      "ZipCode": "987654",
+      "PhoneNumber": "876543121",
+      "Email": "peter@gmail.com",
+      "ContactType": "Profession",
+      "AddressBookType": "Local"
+    },
+    {
+      "id": 3,
+      "FirstName": "Akilesh",
+      "secondName": "Yadav",
+      "Address": "Thomas road",
+      "City": "Mumbai",
+      "State": "Maharashtra",
+      "ZipCode": "876343",
+      "PhoneNumber": "9965402353",
+      "Email": "akilesh@gmail.com",
+      "ContactType": "Profession",
+      "AddressBookType": "Local"
+    },
+    {
+      "id": 4,
+      "FirstName": "Sanjana",
+      "secondName": "Patil",
+      "Address": "valluvar kottam",
+      "City": "Chennai",
+      "State": "Tamil Nadu",
+      "ZipCode": "23789",
+      "PhoneNumber": "765432198",
+      "Email": "sanjana@gmail.com",
+      "ContactType": "Friends",
+      "AddressBookType": "Local"
+    },
+    {
+      "FirstName": "RAJU",
+      "secodName": "SHAH",
+      "address": "RN nagar",
+      "city": "tiruvallur",
+      "state": "tamilnadu",
+      "zip": 90876,
+      "phonenumber": 999888999888,
+      "emailid": "raju@gmail.com",
+      "contactType": "Professional",
+      "addressBookName": "local",
+      "id": 5
+    },
+    {
+      "FirstName": "Somesh",
+      "secodName": "SHAH",
+      "address": "hope farm",
+      "city": "Bangalore",
+      "state": "Karnataka",
+      "zip": 90876,
+      "phonenumber": 999888999888,
+      "emailid": "somesh@gmail.com",
+      "contactType": "Friends",
+      "addressBookName": "local",
+      "id": 6
+    }
+  ]
 }
