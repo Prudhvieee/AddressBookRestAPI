@@ -74,5 +74,15 @@ namespace AddressBookRestApiTest
             Assert.AreEqual(dataResponse.firstName, "Shewag");
             Assert.AreEqual(dataResponse.contactType, "Batsmen");
         }
+        [TestMethod]
+        public void DeleteDataUsingDeleteOperation()
+        {
+            //Arrange
+            RestRequest request = new RestRequest("addressBook/5", Method.DELETE);
+            //Act
+            IRestResponse response = restClient.Execute(request);
+            //Assert
+            Assert.AreEqual(response.StatusCode, System.Net.HttpStatusCode.OK);
+        }
     }
 }
