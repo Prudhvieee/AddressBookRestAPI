@@ -60,5 +60,19 @@ namespace AddressBookRestApiTest
                 Assert.AreEqual(contact.firstName, dataResponse.firstName);
             }
         }
+        [TestMethod]
+        public void UpdateDataUsingPutOperation()
+        {
+            RestRequest request = new RestRequest("addressBook/5", Method.PUT);
+            JObject jobject = new JObject();
+            jobject.Add("firstname", "Shewag");
+            jobject.Add("contactType", "Batsmen");
+            request.AddParameter("application/json", jobject, ParameterType.RequestBody);
+            IRestResponse response = restClient.Execute(request);
+            Assert.AreEqual(response.StatusCode, HttpStatusCode.OK);
+            AddressBookModel dataResponse = JsonConvert.DeserializeObject<AddressBookModel>(response.Content);
+            Assert.AreEqual(dataResponse.firstName, "Shewag");
+            Assert.AreEqual(dataResponse.contactType, "Batsmen");
+        }
     }
 }

@@ -53,16 +53,8 @@
       "AddressBookType": "Local"
     },
     {
-      "FirstName": "RAJU",
-      "secodName": "SHAH",
-      "address": "RN nagar",
-      "city": "tiruvallur",
-      "state": "tamilnadu",
-      "zip": 90876,
-      "phonenumber": 999888999888,
-      "emailid": "raju@gmail.com",
-      "contactType": "Professional",
-      "addressBookName": "local",
+      "firstname": "Shewag",
+      "contactType": "Batsmen",
       "id": 5
     },
     {
